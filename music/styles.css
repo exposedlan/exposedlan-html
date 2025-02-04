@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'amaranthbold';
+    src: url('/fonts/amaranth-bold-webfont.woff2') format('woff2'),
+         url('/fonts/amaranth-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amaranthbold_italic';
+    src: url('/fonts/amaranth-bolditalic-webfont.woff2') format('woff2'),
+         url('/fonts/amaranth-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amaranthitalic';
+    src: url('/fonts/amaranth-italic-webfont.woff2') format('woff2'),
+         url('/fonts/amaranth-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amaranthregular';
+    src: url('/fonts/amaranth-regular-webfont.woff2') format('woff2'),
+         url('/fonts/amaranth-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#title {
+    font-family: 'amaranthregular';
+    color: rgba(255, 0, 60, 0.655);
+    text-align: center;
+    font-size: 64px;
+    letter-spacing: 5px;
+    margin-top: 110px;
+}
+
+#subtitle {
+    font-family: helvetica;
+    text-align: center;
+  }
+
+body {
+    background-color: rgb(205, 173, 158);
+    text-align: center;
+}
