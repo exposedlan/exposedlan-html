@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'sf_speakeasyregular';
+  src: url('fonts/sf_speakeasy-webfont.woff2') format('woff2'),
+    url('fonts/sf_speakeasy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+  background-color: lightblue;
+  text-align: center;
+}
+
+#img-center {
+  display: block;
+  margin: auto;
+  width: 15%;
+}
+
+#separators {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding-top: -24px;
+}
+
+#title {
+  font-family: 'sf_speakeasyregular';
+  color: rgb(136, 0, 255);
+  text-align: center;
+  font-size: 64px;
+  letter-spacing: 5px;
+  margin-top: 130px;
+}
+
+#subtitle {
+  line-height: 0.8;
+  font-family: helvetica;
+  text-align: center;
+  font-size: 14px;
+  margin-top: -30px;
+}
+
+.banners {
+  margin: 0 auto;
+  display: inline-block;
+  width: 20%;
+  height: auto;
+  padding-top: 10px;
+}
