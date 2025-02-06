@@ -60,6 +60,39 @@ p{
     margin-top: -5px;
   }
 
+.audio-container{
+    display: flex;
+    grid-gap: 25px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.audio-container img{
+    height: 260px;
+}
+
+.audio-container p{
+    margin: 2px;
+}
+  
+.covers-container{
+    text-align: justify;
+    display: flex;
+    grid-gap: 25px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.covers-container img{
+    height: 260px;
+    margin: 10px;
+}
+
+#info{
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+
 #title {
     font-family: 'amaranthregular';
     color: rgba(255, 0, 60, 0.655);
